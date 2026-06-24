@@ -1,0 +1,56 @@
+{
+  "case_dir": "/projects/betm/mchukhma/UPENN-GBM/NIfTI-files",
+  "case_id": "UPENN-GBM-00002_11",
+  "device_requested": "cuda",
+  "device_used": "cuda",
+  "edge_count": 160000,
+  "feature_mean": {
+    "DTI_AD": 0.0011952006025239825,
+    "DTI_FA": 0.2444126307964325,
+    "DTI_RD": 0.0008467106963507831,
+    "DTI_TR": 0.0028886189684271812,
+    "FLAIR": 247.66561889648438,
+    "T1": 352.97662353515625,
+    "T1GD": 388.6451110839844,
+    "T2": 161.77537536621094
+  },
+  "feature_std": {
+    "DTI_AD": 0.0005832751048728824,
+    "DTI_FA": 0.15592043101787567,
+    "DTI_RD": 0.0005160695873200893,
+    "DTI_TR": 0.001582697732374072,
+    "FLAIR": 92.11573791503906,
+    "T1": 99.88838195800781,
+    "T1GD": 112.54866027832031,
+    "T2": 80.50393676757812
+  },
+  "finished_at": "2026-05-15T03:05:33.373069+00:00",
+  "k_effective": 20,
+  "k_requested": 20,
+  "max_nodes": 8000,
+  "modalities_skipped": {},
+  "modalities_used": [
+    "T1",
+    "T1GD",
+    "T2",
+    "FLAIR",
+    "DTI_FA",
+    "DTI_AD",
+    "DTI_RD",
+    "DTI_TR"
+  ],
+  "preview_pngs": [
+    "/projects/betm/mchukhma/upenn_knn_demo/scripts/outputs/_8k_k20_cuda/UPENN-GBM-00002_11/UPENN-GBM-00002_11_seg_slice.png",
+    "/projects/betm/mchukhma/upenn_knn_demo/scripts/outputs/_8k_k20_cuda/UPENN-GBM-00002_11/UPENN-GBM-00002_11_sampled_nodes_xy.png"
+  ],
+  "sampled_nodes": 8000,
+  "seg_path": "/projects/betm/mchukhma/UPENN-GBM/NIfTI-files/images_segm/UPENN-GBM-00002_11_segm.nii.gz",
+  "seg_shape": [
+    240,
+    240,
+    155
+  ],
+  "started_at": "2026-05-15T03:05:25.677781+00:00",
+  "status": "ok",
+  "tumor_voxels": 211751
+}

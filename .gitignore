@@ -1,0 +1,39 @@
+# Raw data
+UPENN-GBM/
+PKG - UPENN-GBM-NIfTI/
+*.nii
+*.nii.gz
+*.dcm
+*.tar
+*.tar.gz
+*.tgz
+
+# Generated outputs
+outputs/
+replicates/
+logs/
+ARCHIVE/
+outputs*.tgz
+*.out
+*.err
+
+# Conda / environments
+conda-envs/
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Large generated CSVs
+edges_*.csv
+nodes.csv
+modules_kmeans_*.csv
+module_metrics_kmeans_*.json
+
+# Keep curated fixtures if explicitly added
+!tests/fixtures/**
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
